@@ -2,8 +2,10 @@
   "name": "react-ssr-meen",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://meenkx.github.io/Portfolio",
   "dependencies": {
     "express": "^4.16.4",
+    "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-redux": "^6.0.0",
@@ -21,6 +23,8 @@
     "start": "node index.js",
     "pack": "webpack --config webpack.config.js",
     "babel": "babel src -d views",
+    "predeply" : "npm run build",
+    "deploy" : "c",
     "build": "npm run pack && npm run babel"
   },
   "eslintConfig": {
